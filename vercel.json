@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/vi", "destination": "/index.html" },
+    { "source": "/vi/", "destination": "/index.html" },
+    { "source": "/vi/c", "destination": "/c.html" },
+    { "source": "/vi/c/", "destination": "/c.html" },
+    { "source": "/vi/about", "destination": "/about.html" },
+    { "source": "/vi/about/", "destination": "/about.html" },
+    { "source": "/vi/edu", "destination": "/edu.html" },
+    { "source": "/vi/edu/", "destination": "/edu.html" },
+    { "source": "/vi/privacy", "destination": "/privacy.html" },
+    { "source": "/vi/privacy/", "destination": "/privacy.html" },
+    { "source": "/vi/terms", "destination": "/terms.html" },
+    { "source": "/vi/terms/", "destination": "/terms.html" },
+    { "source": "/vi/manifest.webmanifest", "destination": "/vi-manifest.webmanifest" },
+    { "source": "/api/(.*)", "destination": "/index.html" }
+  ]
+}
