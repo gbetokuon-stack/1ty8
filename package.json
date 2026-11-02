@@ -2,7 +2,6 @@
   "name": "1in8b-life-vi",
   "version": "0.9.13",
   "description": "Bản sao đầy đủ của trò chơi 1 trong 8 tỷ (1in8b.life/vi/)",
-  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "node test.js"
